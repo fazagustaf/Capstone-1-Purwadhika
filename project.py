@@ -120,7 +120,7 @@ def hapus_character():
             # Reset current_character jika dihapus
             if current_character and current_character['No'] == delete_character['No']:
                 current_character = None
-                break
+            break
         elif pilih==0:
             break
         else:
